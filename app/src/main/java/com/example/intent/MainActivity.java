@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        //按鈕事件
         homeBt1 = findViewById(R.id.homeBt1);
         homeBt2 = findViewById(R.id.homeBt2);
         homeBt1.setOnClickListener(new homeBtOnClickListener());
